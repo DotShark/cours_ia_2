@@ -1,0 +1,30 @@
+# Données audio (datasets trop lourds pour git)
+esc50/audio/
+urban_sound_8k/audio/
+
+# Métadonnées téléchargeables
+esc50/meta/
+urban_sound_8k/metadata/
+
+# Logs TensorBoard
+esc50/runs/
+urban_sound_8k/runs/
+
+# Modèles sauvegardés
+*.pt
+*.pth
+*.ckpt
+
+# Exports ONNX
+esc50/onnx/*.onnx
+esc50/onnx/*.onnx.data
+urban_sound_8k/onnx/*.onnx
+urban_sound_8k/onnx/*.onnx.data
+
+# Checkpoints Jupyter
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
