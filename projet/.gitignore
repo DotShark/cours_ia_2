@@ -1,10 +1,14 @@
 # Données audio (datasets trop lourds pour git)
-esc50/audio/
-urban_sound_8k/audio/
+esc50/audio/*
+!esc50/audio/.gitkeep
+urban_sound_8k/audio/*
+!urban_sound_8k/audio/.gitkeep
 
 # Métadonnées téléchargeables
-esc50/meta/
-urban_sound_8k/metadata/
+esc50/meta/*
+!esc50/meta/.gitkeep
+urban_sound_8k/metadata/*
+!urban_sound_8k/metadata/.gitkeep
 
 # Logs TensorBoard
 esc50/runs/
